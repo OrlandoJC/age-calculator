@@ -3,7 +3,7 @@ import { DateForm } from "./DateForm"
 import { Display } from "./Display"
 
 export const AgeCalculator = () => {
-    const [age, setAge] = useState({ days: 0, months: 0, years: 0 })
+    const [age, setAge] = useState({ days: -1, months: -1, years: -1 })
 
     const handleCalculateAge = (date) => {
         const currentDate = new Date()

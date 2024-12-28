@@ -24,7 +24,7 @@ const OutputDate = ({ value, name }) => {
 
     return (
         <div>
-            <span className="date"> {count || '--'} </span> {value === 1 ? name : name + "s"}
+            <span className="date"> {value === -1 ? '--' : count} </span> {value === 1 ? name : name + "s"}
         </div>
     )
 }
